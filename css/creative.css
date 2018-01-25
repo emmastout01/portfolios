@@ -180,22 +180,38 @@ header.masthead {
   max-width: 400px; }
 
   .portfolio {
+    background-color: rgb(49, 7, 145);
     margin-bottom: -15px; }
     .portfolio .portfolio-item {
       position: relative;
       display: block;
-      max-width: 25rem;
-      margin-bottom: 15px; }
+      max-width: 650px;
+      margin: 0 auto;
+  
+    }
       .portfolio .portfolio-item .portfolio-item-caption {
         -webkit-transition: all ease 0.5s;
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
+        
         background-color: rgba(24, 188, 156, 0.9); }
         .portfolio .portfolio-item .portfolio-item-caption:hover {
           opacity: 1; }
-        .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-          font-size: 1.5rem; }
+        .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content .project-category {
+          font-size: 18px;
+          font-weight: 600;
+          text-transform: uppercase;
+          padding: 0 15px;
+          font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+          color: rgba(2, 2, 92, 0.9);
+         }
+         .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content .project-name {
+          font-size: 22px;
+          padding: 0 15px;
+          color: #fff;
+          font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+         }
     @media (min-width: 576px) {
       .portfolio {
         margin-bottom: -30px; }

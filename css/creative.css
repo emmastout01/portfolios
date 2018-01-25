@@ -219,6 +219,7 @@ header.masthead {
           margin-bottom: 30px; } }
   
   .portfolio-modal .portfolio-modal-dialog {
+    background-color: rgba(49, 7, 145, 0.7);
     padding: 3rem 1rem;
     min-height: calc(100vh - 2rem);
     margin: 1rem calc(1rem - 8px);
@@ -238,6 +239,7 @@ header.masthead {
   
   @media (min-width: 768px) {
     .portfolio-modal .portfolio-modal-dialog {
+      background-color: rgba(49, 7, 145, 0.7);
       min-height: 100vh;
       padding: 5rem;
       margin: 3rem calc(3rem - 8px); }

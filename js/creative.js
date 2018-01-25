@@ -15,6 +15,18 @@
     }
   });
 
+   // Modal popup$(function () {
+  $('.portfolio-item').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#username',
+    modal: true
+  });
+  $(document).on('click', '.portfolio-modal-dismiss', function(e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');

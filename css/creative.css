@@ -195,6 +195,11 @@ header.masthead {
   font-size: 22px;
 }
 
+.project-text {
+  font-size: 20px; 
+  color: #fff;
+}
+
   .portfolio {
     background-color: rgb(49, 7, 145);
     margin-bottom: -15px; }

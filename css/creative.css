@@ -60,7 +60,11 @@ h6 {
 }
 
 .text-faded {
-  color: #fff; }
+  color: rgb(255, 255, 255); }
+
+.objective {
+  color: rgb(3, 3, 67)
+}
 
 section {
   padding: 8rem 0; }

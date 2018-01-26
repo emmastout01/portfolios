@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; 
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -54,6 +54,10 @@ h6 {
 
 .bg-dark {
   background-color: #212529 !important; }
+
+.bg-modal {
+  background-color: rgb(172, 233, 255) !important;
+}
 
 .text-faded {
   color: #fff; }
@@ -177,7 +181,19 @@ header.masthead {
       font-size: 4rem; } }
 
 .service-box {
-  max-width: 400px; }
+  max-width: 400px;
+  font-size: 18pt;
+ }
+
+.link-row {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin: 0px 15px;
+  font-size: 22px;
+}
 
   .portfolio {
     background-color: rgb(49, 7, 145);

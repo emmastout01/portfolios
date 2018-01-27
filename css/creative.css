@@ -30,6 +30,15 @@ a {
   a:hover {
     color: rgb(49, 7, 145); }
 
+.icon {
+  height: 45px;
+  width: auto;
+}  
+
+.contact {
+  font-size: 20px;
+}
+
 .header-text {
   border-radius: 100%;
   background-color: rgba(255, 255, 255, 0.5);
